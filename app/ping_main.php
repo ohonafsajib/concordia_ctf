@@ -76,11 +76,15 @@
         //$host = filter_var($host, FILTER_SANITIZE_STRING);
 
         // Execute ping command
-        $output = shell_exec("ping -c 4 $host 2>&1");
+        $output = shell_exec("ping -c 4 $host > output.txt 2>&1");
 
-        // Display the result
-        echo "<pre>$output</pre>";
-    }
+        // Check if the command was executed successfully
+        if ($output === false) {
+            echo "Failed to execute ping command";
+        } else {
+            echo "Ping command executed successfully. Check the output in output.txt";
+        }
+}
     ?>
 
     <form method="post">
