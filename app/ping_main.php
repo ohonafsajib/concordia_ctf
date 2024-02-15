@@ -25,6 +25,15 @@
         .welcome-text {
             font-size: 2em; /* You can adjust this value to your preference */
         }
+        .logout-button {
+            background-color: #f44336; /* Red */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -44,6 +53,7 @@
             <a href="http://172.30.37.194/sound.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 02</a>
             <a href="http://172.30.37.194/ping_main.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 03</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 04</a>
+            <div class="w3-bar-item w3-padding-large w3-hide-small w3-hover-red w3-right"><a href="http://172.30.37.194/logout.php" class="logout-button">Logout</a></div>
         </div>
 
         <!-- Navbar on small screens -->
@@ -52,6 +62,7 @@
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+            <a href="" class="w3-bar-item w3-button w3-padding-large">Logout</a>
         </div>
     </div>
 
