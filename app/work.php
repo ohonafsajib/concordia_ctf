@@ -49,15 +49,6 @@ $result = $conn->query($sql);
             font-size: 10px;
             opacity: 0.01; 
         }
-        .logout-button {
-            background-color: #f44336; /* Red */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
@@ -73,26 +64,26 @@ $result = $conn->query($sql);
             <a href="http://172.30.37.194/work.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 01</a>
             <a href="http://172.30.37.194/sound.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 02</a>
             <a href="http://172.30.37.194/ping_main.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 03</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 04</a>
+            <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 04</a> -->
         <div class="w3-bar-item w3-padding-large w3-hide-small w3-hover-red w3-right"><a href="http://172.30.37.194/logout.php" class="logout-button">Logout</a></div>
         </div>
     </div>
 
     </br>
     </br>
-    <h1> Losing to 4 nerds is going to sting..... </h1>
+    <h1> Welcome to our website of @Hack </h1>
 
     <img src="group-ctf_output.jpg" alt="Image" width="300">
 
-    <p>
+    <!-- <p>
         Welcome to our website of @Hack (“At Hack”)
-    </p>
+    </p> -->
 
-    <?php
+    <!-- <?php
     while($row = $result->fetch_assoc()) {
         echo "<p>City Name: " . $row["City"]. "</p>";
     }
-    ?>
+    ?> -->
 
     <div class="pt-8 text-base font-semibold leading-7 flex justify-center">
         <span id="hiddenLink" class="hidden-text"></span>
@@ -101,8 +92,9 @@ $result = $conn->query($sql);
             document.getElementById('flagLink').href = 'flag.php';
         </script>
     </div>
-
-    <div>TE9MISEhISBZb3UgdGhpbmsgaXQnZCBiZSB0aGF0IGVhc3k/PyEh</div>
+    </br>
+    </br>
+        <div>TE9MISEhISBZb3UgdGhpbmsgaXQnZCBiZSB0aGF0IGVhc3k/PyEh</div>
 
 </div> <!-- End of center-content div -->
 

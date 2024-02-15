@@ -52,7 +52,7 @@
             <a href="http://172.30.37.194/work.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 01</a>
             <a href="http://172.30.37.194/sound.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 02</a>
             <a href="http://172.30.37.194/ping_main.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 03</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 04</a>
+            <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Level 04</a> -->
             <div class="w3-bar-item w3-padding-large w3-hide-small w3-hover-red w3-right"><a href="http://172.30.37.194/logout.php" class="logout-button">Logout</a></div>
         </div>
 
@@ -61,7 +61,7 @@
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+            <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a> -->
             <a href="" class="w3-bar-item w3-button w3-padding-large">Logout</a>
         </div>
     </div>
